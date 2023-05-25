@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)), url(https://w0.peakpx.com/wallpaper/829/775/HD-wallpaper-anonymus-quote-computer-anonymus-hacker-quotes-message.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* styling for navigation bar */
+
+nav{
+    width: 100%;
+    height: 15vh;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: grey;
+    justify-content:space-between;
+    display: flex;
+}
+
+nav .logo{
+    width: 30%;
+    text-align: center;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .menu a {
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+
+nav .menu a:first-child{
+    color: green;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+
+section h3 {
+    font-size:  40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 2px 1px 4px black;
+    text-transform: uppercase;
+}
+
+section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 2px 1px 1px 4px black;
+    margin-bottom: 25px;
+}
+
+section a{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size:  12px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section .btnone, .btntwo{
+    background-color: white;
+    color: black;
+    padding: 8px 30px;
+}
+
+
+/* hovering changes the color */
+.btnone:hover{
+    background-color: #00b894;
+    color: white;
+}
+.btntwo:hover{
+    background-color: #00b894;
+    color: white;
+}
+
+
+/* animating the text */
+.change_content:after {
+    content: "";
+    animation: changeDestination 10s infinite linear;
+    color: #00b894;
+}
+
+/* using keyframes */
+@keyframes changeDestination {
+    0%{
+        content: "Course 1";
+    }
+    20%{
+        content: "Course 2";
+    }
+    40%{
+        content: "Course 3";
+    }
+    60%{
+        content: "Course 4";
+    }
+    80%{
+        content: "Course 5";
+    }
+    100%{
+        content: "Course 6";
+    }
+}

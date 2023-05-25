@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to external css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>A.P.J Abdul Kalam</title>
+</head>
+<body>
+    <div class="container">
+        <button id="change-theme">Dark Theme</button>
+        <div class="content">
+            <section class="name-section">
+                <div class="image-container">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVEhgUEhISEhIYGBgZGRIYGBIYEhgZGBQZGhgYGBocIS4lHB4tHxgYJzgmKy8xNTU1HCQ7QDszPy40NTEBDAwMEA8QHhISHDEhISs0NDQ0NDQxNDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0ND80P//AABEIAMMBAgMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBAUGB//EAEAQAAEDAgQEAwUGAgoCAwAAAAEAAhEDIQQSMUEFIlFhMnGBBhORobFCUmLB0fAz4QcUI1NygpKisvFDwhYkk//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgQDBf/EACQRAQEAAgMAAgICAwEAAAAAAAABAhEDITESQQQyIlFxgZFh/9oADAMBAAIRAxEAPwDsyExRlCVidQFMiKZIEUJRFAkZihRFCkCSSSSMiocRWYxpe9zWNFy4kAD4rM9ouPMwtPM6HVHWYybnqew7ry/ivtDiK5dnfDXf+MeEDp1KvHC5FctOx4x7dNYCKFMF2ge8yB3yj9VxWO9oMXV8depl+612RvwbE+qzC4pSVoxwmKLlaP3z/vu+JVrA8UxFEzSqvp9plp8wbKkSmlXZA73hft/AjE0sx/vKcfNhP0Pout4ZxfD4gTRqNed2aPb5tN14sCjo1nMeH03OY9pkOaSHA9iuOXDjfOlTKvcklyfsx7XMqZaWJIZV0bUsKb+nZrvkfkutIWbLG43VdJdhcoypSoypMyFEkkaMhMQjIQkIMBCGFIUMKTROCaEbghhADCAhSkIXBI0KSOEkG60oSjKGFrZEbkyQIzEEtZABzOMNMk2B7R8wmJuRuCRqCLd90GRQpymKQCmTyhJSM6ixWJbTY57zDGNLiewEqQlY/tW4DBVyf7t3x2+cJa3TeT8b4nUxNZ1V9iTDW7NaNG/vdZ5RwmyrbJJHKhTlO1hUz6B6I2cnSuUk7mJw1BaCE6Ohhy8wE/uoBmyNzej+N1tGV6T7BcYfWpOpVHZn0ogmS4sMxJ3ggj4LzlzF1f8AR0QMU8EwTSMDrDmyufLN408b29HKAoygKwuwUk6ZBmKEhGmKDAQhKIhNCkwOQwjcEKAaEJCNCUjRpJ4SQHVlCURQla2VG8KIMjRTOQFBhKEoihKAElMSnKElIzErlf6Q8SW4MMH23tafJoL/AKtaunJXHf0k/wACl094f+DkYftBfHnwiBPdGxgKib+/RbHs9w51aoXWFNupOkxYDqtOWUxx3U4Y3LLUMeHudUbSptl7hPkOp6bq/wD/AB6rzRlcGmASYFtY+fwXS4DCU8O1zyQXukvqO1N9J2A6ImcbwhH8anvPMJmeiyXlyv6t2PDjjP5VwlTAvDi3KSBaYNz0A+KvYbgLocXCC1slu4kWHnp8V32Ho03jPTNN40DmkERrEhH/AFEkm2uveOqWXPl5pWP4+Hu9uN4ZwoMc7OLjTpaDPzWdxnhxDZaNdvI/v9wvQK2Akg2ELA4vVoUyRUqNn7oku+A0U48mVy3F58eEx1fHneYhans7iizF0XAxztae4ecpHzVrGHD1p92eYdiD89VlYBpbiKY3FRn/ADC2TL5SyzTz8sPjdy7j2olCUpTSsLoSSSSASSSSDCQhIRlCpMDk0I3BCgGQOCkITFARJJ0kG6koSjKArUygcoypHICgIyhKIoSgwlAURQlAAVzXtzhXVMKAwS4PaR8wfrHqukcq+JZIUXL49x048ZllMa8UuJ7WXofspgw3CsI1cMx8yT/JZft3w6m1zalNoYbB7QCBfwu6bEW7Lo/Z4AUKbfwN/wCKrmz+WErvw8fw5LKhxHCmPcX4iocg0pyBTHdwI5j5rH4lhOG6GqWnTkDQNJ1DYXUcTwoewiYtHT1WBxHhzX06dPM2n7tr2SGs5mv8UtNg/wDEPylRx5b9ul8uPW5Nsfh9B9N+bDYl7NZDmuAd5g2K7vhGLrOYTVgnYtjTZYlVzXuYG0srWMawPLnGo4MbAzWEnutnAMIpkaTKXLkvhx666Y3tLxN8hlN5ZqXBs53aQ2RoNVzeGoUHVD773laob5GQYHk0kwB1Omq1Xge/L3gPGYiHAlttjB0OiGs1oxH9YEzme8UwcjRUe0NcWugnLaYm3WFfHqY+ufJMrl5tSxGBwrm5qMtI3EyDFlh0W/8A22C/8Wmba+JpMBdPhcKS59R1i5xcREAk7qHgWEYeJc4nKwvaPxDKAfmVWOerfvpz5cf4zrTvynaRuglKVmSNJCiTBJJJIBIYRJKTC8IETgmQDFCUZCYhIIUkeVJBuoKByMoCtbKByjcpHIHICMoHIygKAAoCjKAoACo3/mCjKB6nKLxurtjcdosr0n0nCHuggm45XA8p8pQcMZkDGDRrQPgFYxT4aRmsHSAep6esqtTdzyuN3rTfLMrMv7jbbh2uFwmfwVpvzf6iB9UGGxMC+qPF48nlYZcfgO5UR3itVw1Flhd3Qa/FPQYSZExsEL6RYJYWuqHVzrg3UbeIvY7M6I6tbBkepn5J/G0/njGLVZkqulhIkmPzC1mcMpvYHt0N7Ej4rHxOOqPql4aGMNgXgyZOoC1uHYgMZ4gRqfW+idlkTMsbUOMwoY2Rpv1WXwLCl2NfWHhbTyzsXOdp8Gn4hafFcWPdmCo/Zdv9k533nm/YAD6ynjbJXDn025STIgpZiTpk6AJJJJAJJJJBmKZEkgBIQkKRCUjRwkihJIadKUBRlCVsZUZUblIUDkBEUDlI5RlPQAUBRlASmQHIHBGVHUeGtLjYAST5KNKjB43gWl7ax8TYAE6806epQYZwzLK4vTe57MQSYaTLJ+w6RYfh/wDVyt060QUubjuOpWjgzlm2/Spi0qtjqJY7llwN/UbIaOKkDqFoUKueJus06rZbuaZfD69Wq3NTo3BILXPY14gT4SeituwOJjmw7xcXBbuLaEg6qHiHDwTnAB6iPQ+SibWY1uX3lVs3ID3gHzg3XbHVT8b/AHP+M3jlOvSGaqwUx0L6ebQmzQ6SbHQbKvw01HjMQW5iGtBj1J6CFNjqXvHyC9x3qPJc6BtJJhXWkMpyLZQjKyTUFxu+7tncSaBy7D8lucFpZMOwbluY/wCcl35rn2NNeo1mzruPRo8X6eq64Ln5HHmy3ToghCcJOR06ZOEASSSSASSSSDMUycpkgJNCdIJKhoTp0lJ6dAUJRlCV6DEjco3KQqNyei2jco3I3KJxTkGzFRuKdxUT3gAkmANSlYZyVk8RxQcfdtvpmP8A6qvxDGufLWnKzTfM7128lnYaq1rjeQe0EGdCdxvK78XD3uueWfWo0mstG43Invp6C25AG6yn4F7HBtMZmOMBk8zTfK0dZhzR1LbTIWtTeQenf96HvspH0h9oQOlu2nqG/hsw/Zcu+eGOU1U455Y3cY2Er/8AW/ey0sJi8r4OhWhS4dSxktzto40CW1DIp4hsAjONc0RzCSRBMkEDnuKYDEUH5a9NzDs7Vju7XCx+q87l4Msa9Dj/ACJlP/XUg9P2FXq4QHmEDvA/Rc3huK1GWILx1GquO484jKWvEdoXD4WNM5sbO1xxDbGPNYnHMYBDGnz9E2P4wY5Wunr6d0HBOHOe8V6o5R4GncjQ+Q+ZR8NfypZ80s1GxwPA+7p5nCKj4J6tH2W/r3PZawUbVIp3tmpwnCYIgkCCcJJIAkkkkAkkkkGSEIihCVBwjaEwCNoU1UKEkUJklN0oSichK9KRgA5QvKlconKpCQvKhe5SPcs3H4wMHV2w/VVMd+FamxFdrRLjAXP47iQeYnKwaNO51E/K3cJ6rqjjmffXrAgAmI0iR/NVKtIDxNJ+J+nmu2OEnd9TctoKtRp0FttJ1JB+fyVOoDIc08wtoA0gi7T5qxUGXQWO1/kVGarTqDPffzKvZLODx+aWQcwi0kW2B6kXHcX6q/QxAcNCY223EeZnL/nKy6bSTLY0gt2eL8ptYiZBixvfQyUsQW3bMbujnDtbgmJv/N1yrlTY1mZiQZIIk5oOeQ48w2u/NfYBtiYC7jgPF24hnuMS1jnRo4NLXt6wbT1+XbgqNZvibAbeBcADYZZgQ3p1tqZvMcZD2ktcCCI8TTIvbaY+QEktCLJZqp7ldZxb2MwjmudTDqLgCYYZZYT4Tp6ELiuOezOIwzPeHLVZIDnsnknQvadptN/Rd/w7if8AWMO+SBUa3K5o6usHDsfrImyt1cKTSewjPnY9uTUczSIv+ay58c3rX+2nDks728c4XgzWqhpAyi53sP5wu2fTp0aBfUDWtByXsC82br8fRZ3sTgJqn3gILAWuaRcPzRB8iHKT+lahUGGo5Wj3XvXFzpHjyEMEa+E1L+SnDD5Y9unJlrLUAxShcHgcbWYOR7oH2NR81v4Dj4Nqrcp+80GPUbLLn+Nlj52rHkxreCIKChXY8ZmODh1CnC4a11XQ6JCnCQOkkkgEkkkEGRTBEUwSoG0I2hC1E1RVQSSSSSm25AUZQlepHn1G5V3lWKip1iqkTtRx+JyC13GwH5+SzKTDd7oPUkgN8ifjbupsS8OqQdrDcACc5I8p+G8QgY+DIEWBgkghriREjrlJ0yGfCLzpxx1EWjIMkAAmxywQAc0w7lLhmeLugjK1BBcBGYtiz4D2mLzLSNRfTcI3PMWBcG3AAixGga08rjDWywjx90mOOaXMOY/bHiJAgnM3mIJa+xJswetEp1sCx0/eF+WSYgmTTMGAA/QmTlWRjMCW7tMTMSLh0EOHrE9WuXRuDY8Nti5rzDhBBuDo4AqrWc2IGcxoCDYAOAF9Tka7/NUefskoNzdI5TLdBqw6i300V8AGHskOi4F8w8tx3FwfNTYjCsPMLjoIm03G3W3mqj8PUpcw56esCPjGx7i6ZpWNtmYf8TN2nY269tYteVao4iDrbvG89NokQPxRAzE1S5zgHscJ2m+YE3DpMkbIHOzc4BBFnM1LTAt3BjXeNogNPrbw+Lcyo2pT1ES2bOEiQ6NdB8BG2f0LhuMp1mNqMmHC4OoO4PdeWYap6zta/TtH6n13OC8U9zUkn+xfGc35TqHj016i5iAXrKb8E6dPheH+7x2IcByVW06g/wAXMx4Hq0H/ADLi/bbE1MRiHUeZlKiBkB0e91i/yEPaPJx3XqOGe06m8W6Ea27Lj+PcOzU3vF303vm8Sx73TfsTPxXPHW9Lt+3llE5TIm1iN1dAY++h+qHieFyVDA5HTBtbp8VXovI5Tb93VTroe9rTQ+m4PY4g9BuF0fC+KNqCDyv6bFc/RedCDCF9Ag5ma6xP07rly8GOUXjnZXapKhwrHe8ZB8YF+46q+vLzwuGWq1Y2WbgkkklJkkEk4QDlMEUJmpU4MI2oApGrnVwkk8JINtlRlSFAV68eciqKhiXQtB6y8e6GuPZXjO0WsxgBcJ3kfE/IWEnXpESZHtgztvoO5J7hoBI0A6klRtgQN7X6aD9PgpQ7cx57CHXtuA68aOc4AuELSgbad4AvvEh0de0WM7QhLrC+uhbESIuy8OMNDg0E2bSbuZQqCIOrfsktIGuUkGw0iXakGHpy8u5t4EmSJA0zEgkQfvB4A5p5Ap0oz6h0DeYbavaQYILDFgQRIddValZjol7RsZlkQRMtc1wgNBJ57+7aN1ZAAAH2RAyZQGjQDkdOQwAOWIFvsOKN7AReXD8RcbTaJJIIt+wEdQMh2FBdyF0G8RmEwHEFzHkkgFoJgXnyVdmINIkODXM+2wucYBsSQRMebXaTa6uYzBAXi2xhs76W/C4nTwvNgATRrWEG4uMskZbZhHY2PeR1TCLE0cnOznpuN2tykAwZgtOkaiG690/9Xnnpt5twNXDo5hvB6AnSZsi4K+5oOkiRk/wvezM3vlDHDyI6qIRRqBrh/ZvAIaZyjNcNvpa5T8I4iMw8LpBB1adSDNotN7bmBY2WVDoT/wBzJ1vO997mTZtPFMyPztBM66AnQi2x0I6GEdCDAmWxLTe42tsZ+YKPB67n2U4lnaMO8nO0TTdvlEcnmOnTrqt9gmo8OHis4bEERPx+q80o1nNcHNJa9hlp7g7/ABg+cbwfQ8JjG16Ta7BDhLXt3aRZ7T5Fc7Ndql+nnXtHw8szs1LHRpqxsQT55gufLQRIkO9V6T7X4Qucx4ktqMykRIlsu+YH+1ecvYWOLTIjbf1Ve9iddCpvPhdN9JGqsOBjS3T9FG1gc3KTcaWvfb0UlIzym59YTgqOlWdTqB7b79NNR6hdix4IBGhAI9VyGLpjJI1G36LT9neIlw90/wATRynqBt6LF+Vx7nyn078OX030kkl57QQThMiYgzuKZhR1G8qr03CbJZdDFZaFIELUQULh0kkkG2ygKkKAr1482o6gssbih5PMwtp4ssbiw5L9R6d1eH7RNZrIyjsLnsQSNx8+hOkkSB140kzq4QcuW5gEGDBIgtEwR4BHMZT2AO3cfP6k7SWDRYGIPnb+V1prnFgM8yQbQADeGmABAJJaOUa5W65ipaYFrgzpuL/lqoX0+skmGwDeXSALA65nRALpeSA4wFGMw8JN7jKGkEamLmAJFwXAAiQ2Qp9XFqsIH2WtsJdcdBM6m8EanTWqhb90lwOw5QT/AK4z7iRMxm0IVY1HazVP4wGh+mgcHEvHcwNCJhMx8A3LR2Y4NNhyupwW7sFpiWfdGY0Npa8DlIidGuIa86GA14bm0BEHVjZtIOfiaThfmIOhyVCNyIIffUmZJIINhCsf1pkHJWp0/wAALqYM3ByOOWd9FWztIPKx8zzs92Q6xdHIBEkMG/KwDXV6DHruDKrKgBbDi08paIc0tF3O+8W/Ba/EcH7xjgGi2WCGutkZSb4mF4O/3VncVwgew2c2oLB5DtQdRP4gVp4LECqwPiS4VDfJIJrAQHAT9gJFWbhH525HNcHi2xJiSDBjqd+iZ7Cy8Oa0m8sc0NJ0cSSRl2J0sDsmxuGh5yC+0yfrqLFFRAewjLE6i43g6bTHwTngogTMXBHYgzMeYuY63jxFxbv+yXFPdVsj7U6kNIsA1wADTa3a1ojpfl8M5w5HTmbGUjQtAg+oFv8ADP4ib9ODbUm3Unt6I19B6BxrCl2HqMgEs52TJ5bzoQdMwXmvFWRUDoAaemnXuvR/Z7iPvqTc5moyGPmDma4cj+4PXcgri+PYLIHNjwPgHeAOXzspx8sO3vbGayHA7TE3Nj5eikc29tjY7A+fT4jyQtaHAg6Eajr0PTdEwkjXbXb1VQGeczTaPSP+1n4HFCm5rzMMJmImN1ohuU3knpt/L1WSKWao5juVkzl3dOw7KM8ZeqrG67dzhcSyowPYZa4SOvqplkcBdlD6cghpDhHR40+IK1l4/Jj8c7G3G/LGUQUjFGFIxQpayjKZ6LkKvEizEFv2ZXXPeA265l3Bmvql56yFNn8t13/HuE38m9QfmaD1UwUNBmVoHRTBTUU6SZJIN0oUZQlezHmVG5Y/GByH97FbTllcWHJ6q8fYV8Y1KC2DaLfCyZjTcXzdbyY0MjfaYMH0BdrbTE6Rrc2kdzJiBuQNSSH1IcDf5R1+EenYiNNcodoBsdCCD0h1jH6aTJ0HOTsM06gmXAzJyyCHCROsgb7AAiA5qaNzruDr39fp1Asp2Ab6HedbTvtuSYjUkaiPFwmUwBckC3OXH0k21J1tPQGAmLADHONG6nNMEgAQS19wYIL7A5LAgt43vaHWt2gzBExDoMjIHMgmgFtzaIk5btJPQQRIIIADCROV4IcXo0JadnGCdWgXjlAYLjOOUZRmMhoyMDxko1+Hh8n7WsiA4WmQQLxmBBIbZzDAzADUc0kWgE7kmTtln7pBI6NkEaCKzpnxntIi8mBGgkmI0Bcf7pAc9isG9hhvLJ5Ac7W6ACHEnRrSIgalR8KxBZUynkaXFpBLWgEy4XEASQdV0RJ8LqlNwIsHDUHQhvw23WRi+GtztrU6kVAZyB4aCSDNiWubGXoRziyAs4lgc4ZXA+KzSHC7gfszOhVBlNrXT4b75m62PiA6FWf6znPNJdDhBg6A356QnQXlGGEQBYZRpLfumeV9jfonIhQxTDyvaWhzehpm4F9HabR0Ebqdrw7mbEEQ5oIJG2XuJPW9urosVZJN7GDJcCNLC7LTJOqpAEOykmDDdWm+jXWbqQYP+K9pBKcanB+IGlWDiTkPJU6BjiId5g5XeXQFoWx7VYaSHxd7IJhk5mG4kkEa7dFyzLjmmLAi9/zP1vddP741cC1xPPTeA4nWIyzPcEHzSnovjk6IBMenxGkanyHmjYyANIv8nET2HfTW4TPblqEaTH1+Smo3YJvDnHLA6z9N7agJ6NBVYSzlk9gL/L99tzjkZajiIBI7za0bbrefrMN+A7hYoYH1eY2v6X67Kacans5iGMJY6z38wcdDFsq6NczieGuaMzXExdpMCD56LewOID6bXSM0DMOhi6838vi+OXy/tr4ctzS2EbEARNWJ2S13SIQMYnThLK7OQYTpk6lZSkmSQHQFCUkl7LzQuWZxX+GfL80klWPsTfGDt5zM3mHOF57W9T1Kkfq74fNv6n4pJLW5Dbp5AfUKUn5OMf8A6gfmT531unSUVUSOFvX6YptIf7SfWHagFRu09T8/eA/JjP8AS3oEkkRQX6egUOL0Pk8+ozR9L9ZM6mUkj7AKjQKkACJadATzMaTc31JWFisTU98W53loPhLiRcM2KSSPsKVSu7MNBd4s1otLrWC36fiPk3/i1OknE0znmRfefkf1WVi9KnZlu0AJJJlFz/ykbEm3m4rU4K8+5xQm3u2GO8vv/tHwSSUnWRxT+L/p/fyT4fwerh/u/mkkn9j6EdD5rHpfxv8ALtbfskkll6qeN9jB7sGLxqqmGeRiAAYB1HVJJRz/AKX/AAfH+0dEEbUkl4T0RJwkkppwaSSSFEkkkkH/2Q==" alt="Ankit Fadia">
+                </div>
+                <div class="heading">
+                    <h1> Ankit Fadia</h1>
+                    <h4>Alive</h4>
+                </div>
+            </section>
+            <section class="about-section">
+                <h1>India's 1st Talented Hacker</h1>
+                <p>
+                    Ankit Fadia is one of the self-proclaimed ethical hackers who has
+                     been making head turns for a long time. He was interested in ethical 
+                     hacking from a very young age. His journey is quite interesting! His parents
+                      bought him a computer when he was ten. He spent one year playing only video games. 
+                      After that, as soon as he learned about ethical hacking from a magazine,
+                       he started his website www.hackingtruths.box.sk to provide hacking tutorials
+                        on the website. Later, being encouraged by his followers, he wrote his first book, 
+                        An Unofficial Guide to Ethical Hacking, when he was merely 14! An Alumni of 
+                        Stanford University, Ankit is also well known for his stint as a TV Host and Anchor. 
+                </p>
+            </section>
+            <section class="bio">
+                <h3>About Ankit Fadia</h3>
+                <ul>
+                    <li>He continued to produce more books about computer security, and spoke at several seminars across schools and colleges in India</li>
+                    <li>n addition, he started providing his own computer security courses, such as the "Ankit Fadia Certified Ethical Hacker" programme. </li>
+                    <li>Fadia was dismissed by security and cryptography enthusiasts as a 'faker' making tall claims, who attributed his success to the tech-illiterate media</li>
+                    <li>In 2002, Fadia claimed that at the age of 17, he had defaced the website of an Indian magazine.</li>
+                    <li>In a 2002 interview published on rediff.com, he stated that at the age of 16, he foiled an attempt by the Kashmiri separatist hackers to deface an Indian website. </li>
+                    <li>His own website has been hacked multiple times. In 2009, he blamed the defacement on a vulnerability in the servers of his webhost net4india. </li>
+                    <li>During September 2015, His official Facebook page posted a certificate which claimed that Fadia was appointed as the brand ambassador for Prime Minister Narendra Modi's pet project, the Digital India Initiative.</li>
+                </ul>
+            </section>
+            <footer>
+                <p>
+                    Read more about Ankit Fadia
+                    <a target="_black" href="https://en.wikipedia.org/wiki/Ankit_Fadia">Wikipedia</a>
+                </p>
+            </footer>
+     
+        </div>
+      </div>
+    <script>
+        // js code for when click on icon it should change the theme that means changes overall color of web page inserts black theme and white theme
+        let icon = document.getElementById("change-theme");
+        let btn = document.getElementById('change-theme')
+        icon.onclick = function(){
+            document.body.classList.toggle('dark-theme');
+
+            if(document.body.classList.contains('dark-theme')){
+                btn.innerText = "Light Theme";
+            }
+            else(
+                btn.innerText = "Dark Theme"
+            )
+        }
+    </script>
+</body>
+</html>

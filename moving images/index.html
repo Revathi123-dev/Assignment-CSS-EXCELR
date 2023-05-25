@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image background</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="imagess/car2.jfif" width="100%">
+            <div class="image-wrap">
+                <img src="imagess/car.jfif" id="original-img">
+            </div>
+            <span id="line"><img src="imagess/cross areows.png"  class="arrow"></span>
+        </div>
+    </div>
+    <!-- script for moving images -->
+    <script>
+        // using transparent image
+        let imageBox = document.querySelector(".image-box"); 
+        // using original image as usual
+        let imageWrap = document.querySelector(".image-wrap"); 
+        let originalImg = document.getElementById("original-img");
+        let line = document.getElementById("line");
+        originalImg.style.width = imageBox.offsetWidth + "px";
+        let leftSpace = imageBox.offsetLeft;
+// inclusinf script for moving images
+
+        imageBox.onmousemove = (e) => {
+           let imageBoxWidth = (e.pageX - leftSpace) + "px";
+           imageWrap.style.width = imageBoxWidth;
+           line.style.left = imageBoxWidth;
+        }
+    </script>
+</body>
+</html>

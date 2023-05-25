@@ -11,17 +11,17 @@ body {
 
 /* sections images css */
 .image1 {
-  background-image: url("C:\Users\B MAHESH BABU\anaconda3\Desktop\web\calculator proj\Assignment 5 -css\images section\download (1).jfif");
+  background-image: url('./images/download\ \(1\).jfif');
   min-height: 100%;
 }
 
 .image2 {
-  background-image: url("C:\Users\B MAHESH BABU\anaconda3\Desktop\web\calculator proj\Assignment 5 -css\images section\download (2).jfif");
+  background-image: url('./images/download\ \(1\).jfif');
   min-height: 400px;
 }
 
 .image3 {
-  background-image: url("C:\Users\B MAHESH BABU\anaconda3\Desktop\web\calculator proj\Assignment 5 -css\images section\download.jfif");
+  background-image: url('./images/download.jfif');
   min-height: 400px;
 }
 
